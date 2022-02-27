@@ -40,4 +40,4 @@ $services.jsonstore.permdir.exists("my id", false)
 
 ```
 
-Ids can be of form ```item1/item2/item" .
+Ids can be of form ```item1/item2/item3``` .
