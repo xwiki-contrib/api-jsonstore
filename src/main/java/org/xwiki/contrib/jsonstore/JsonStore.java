@@ -20,13 +20,16 @@
 package org.xwiki.contrib.jsonstore;
 
 import org.xwiki.component.annotation.Role;
+import org.xwiki.stability.Unstable;
 
 /**
  * Interface for saving and fetching an object serialized to JSON associated to a key.
  * 
  * @version $Id$
+ * @since 1.0
  */
 @Role
+@Unstable
 public interface JsonStore
 {
     /**

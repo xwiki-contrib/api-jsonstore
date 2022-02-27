@@ -26,15 +26,18 @@ import javax.inject.Singleton;
 import org.slf4j.Logger;
 import org.xwiki.component.annotation.Component;
 import org.xwiki.contrib.jsonstore.JsonStore;
+import org.xwiki.stability.Unstable;
 
 /**
  * Script service for the XWiki Permanent Directory implementation of the json store.
  * 
  * @version $Id$
+ * @since 1.0
  */
 @Component
 @Singleton
 @Named(JsonStoreScriptService.ROLEHINT + ".permdir")
+@Unstable
 public class XWikiPermdirJsonStoreScriptService extends AbstractPRJsonStoreScriptService
 {
     @Inject
