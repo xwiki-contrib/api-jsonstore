@@ -40,6 +40,6 @@ $services.jsonstore.permdir.exists("my id", false)
 
 ```
 
-Remove API not yet added, for the XWiki permdir based implementation all cleanup should be done by accessing the actual server permanent directory. When a new implementation would be added, the API should be enriched with a remove function.
-
 Ids can be of form ```item1/item2/item3``` .
+
+Remove API not yet added, for the XWiki permdir based implementation all cleanup should be done by accessing the actual server permanent directory. When a new implementation would be added, the API should be enriched with a remove function.
