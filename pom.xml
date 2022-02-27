@@ -29,7 +29,7 @@
   <artifactId>api-jsonstore</artifactId>
   <name>JSON Storage API</name>
   <description>JSON Storage API and implementation based on permanent directory</description>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <properties>
     <commons.version>9.11.3</commons.version>
@@ -41,7 +41,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/api-jsonstore.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/api-jsonstore.git</developerConnection>
     <url>https://github.com/xwiki-contrib/api-jsonstore</url>
-    <tag>api-jsonstore-1.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <developers>
     <developer>
