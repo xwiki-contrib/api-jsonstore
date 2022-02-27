@@ -1,0 +1,3 @@
+org.xwiki.contrib.jsonstore.internal.XWikiPermdirJsonStore
+org.xwiki.contrib.jsonstore.script.JsonStoreScriptService
+org.xwiki.contrib.jsonstore.script.XWikiPermdirJsonStoreScriptService
